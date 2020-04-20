@@ -1,0 +1,22 @@
+<!--pages/images/images.wxml-->
+
+<!-- 默认的大小 320*240-->
+<image src="../../assets/tabbar/cart.png"/>
+<image src="/assets/tabbar/home.png"/>
+
+<button bindtap="h"> 选中图片 </button>
+<image src="{{ imagePath}}"/>
+
+<!--  -->
+<view>********************</view>
+<image wx:for="{{10}}"
+ src="/assets/tabbar/home.png"
+ bindload="hh"
+ lazy-load
+ />
+
+
+ <image
+ show-menu-by-longpress
+ src="/assets/tabbar/profile.png"/>
+ 

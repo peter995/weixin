@@ -1,0 +1,9 @@
+/* components/cnp1/cnp1.wxss */
+.aa{
+  font-size: 60px;
+  color: red;
+}
+.bb{
+  color: gray;
+  background: forestgreen
+}

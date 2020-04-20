@@ -1,0 +1,5 @@
+<!--pages/tanc/tanc.wxml-->
+<button size="mini" bind:tap="han">show Toast</button>
+<button size="mini" bind:tap="haa">show Toast</button>
+<button size="mini" open-type="share">分享</button>
+

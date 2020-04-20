@@ -1,0 +1,9 @@
+<!--pages/scroll/scroll.wxml-->
+<scroll-view class="cc" scroll-x>
+<view wx:for="{{10}}" class="ccc">{{item}}</view>
+</scroll-view>
+
+<!-- 垂直滚动：scroll-y -->
+<scroll-view class="cc2" scroll-y bindscroll="a">
+<view wx:for="{{10}}" class="i">{{item}}</view>
+</scroll-view>

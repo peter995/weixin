@@ -1,0 +1,13 @@
+/* pages/view/view.wxss */
+.box{
+  background: red;
+}
+.b{
+  width: 100px;
+  height: 100px;
+  background:hotpink;
+}
+.a{
+  background: orange;
+  font-size: 20px;
+}

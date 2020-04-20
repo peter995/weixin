@@ -5,62 +5,41 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name:'Hi',
+    age:12,
+    students:[
+      { name: "x", age: 13 },
+      { name: "l", age: 13 },
+      { name: "h", age: 13 },
+      { name: "g", age: 13 },
+      { name: "y", age: 13 }
+    ],
+    counter:0
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  handleBtClick(){
+    this.setData({
+      counter:this.data.counter + 1
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  handleBt(){
+    this.setData({
+      counter:this.data.counter - 1
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  h(even){
+    console.log(even)
+  
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  // 监听页面的滚动
+  onPageScroll(obj){
+    // console.log(obj)
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  // 监听页面滚动到顶部
+  onReachBottom(){
+    console.log('页面滚动到顶部')
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  // 
+  onPullDownRefresh(){
+    console.log('下拉刷新的事件')
   }
 })

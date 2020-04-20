@@ -1,0 +1,4 @@
+<!--components/cnp1/cnp1.wxml-->
+<text>components/cnp1/cnp1.wxml</text>
+<view class="aa">我是谁</view>
+<view class="bb">我是卖报的小行家</view>

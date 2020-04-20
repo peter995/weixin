@@ -1,0 +1,8 @@
+/* pages/wxss/wxss.wxss */
+.box{
+  font-size: 30px
+}
+
+.active{
+  color: red
+}

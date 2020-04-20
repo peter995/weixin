@@ -1,0 +1,22 @@
+/* pages/scroll/scroll.wxss */
+.cc{
+  background:azure;
+  white-space: nowrap;
+}
+.ccc{
+  width: 100px;
+  height: 100px;
+  background: rebeccapurple;
+  margin: 12px;
+  display: inline-block;
+}
+.cc2{
+  background: orange;
+  height: 200px;
+
+}
+.i{
+height: 100px;
+background: darkgreen;
+margin:10px;
+}

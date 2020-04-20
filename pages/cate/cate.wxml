@@ -1,0 +1,4 @@
+<!--pages/cate/cate.wxml-->
+<text>pages/cate/cate.wxml</text>
+<navigator url="/pages/button/button">j</navigator>
+<navigator open-type="navigateBack">返回</navigator>

@@ -1,0 +1,18 @@
+<!--pages/input/input.wxml-->
+<input/>
+
+<input value="啦啦啦"/>
+
+<!-- type：决定键盘类型（文本输入键盘/数字/身份证） -->
+<input type="number"/>
+
+<!-- password：暗文 -->
+<input password/>
+
+<!-- placeholder:占位符 -->
+<input placeholder="请输入内容"/>
+
+<!-- input绑定事件 -->
+<input bindinput="haa"
+       bindfocus="hf" 
+       bindblur="hb"/>
